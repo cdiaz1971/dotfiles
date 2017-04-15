@@ -6,7 +6,7 @@ files="bashrc vimrc bash_aliases tmux.conf"
 
 #create folder to back up dotsfiles
 echo "Creating olddots directory"
-mkidr -p $olddir
+mkdir -p $olddir
 echo "created"
 
 #creating dotfiles folder
